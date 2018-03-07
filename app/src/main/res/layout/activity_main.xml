@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="paulosalvatore.com.br.ocean_codelab_ws_06_03_18.MainActivity">
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:onClick="buscarDados"
+		android:text="@string/buscar_dados_do_webservice" />
+
+	<TextView
+		android:id="@+id/tvTexto"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/o_texto_ir_aparecer_aqui"
+		android:textSize="20sp" />
+
+</LinearLayout>
